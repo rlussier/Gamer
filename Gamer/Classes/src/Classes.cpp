@@ -6,8 +6,10 @@ using namespace std;
 
 int main() {
   
-  speak();
-  jump();
+  Cat cat1;
+  
+  cat1.speak();
+  cat1.jump();
   
   return 0;
 }
