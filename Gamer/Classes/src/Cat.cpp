@@ -3,11 +3,11 @@
 
 using namespace std;
 
-void speak() {
-    coout << "Meow!" << endl;
+void Cat::speak() {
+    cout << "Meow!" << endl;
 }
 
-void jump() {
+void Cat::jump() {
     cout << "Jumping to top of bookcase" << endl;
 }
 
