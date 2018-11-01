@@ -1,15 +1,15 @@
 #include <iostream>
-#include "Cat.h"
+#include "Turtle.h"
 
 using namespace std;
 
 
 int main() {
   
-  Cat cat1;
+  Turtle turtle1;
   
-  cat1.speak();
-  cat1.jump();
+  turtle1.speak();
+  turtle1.jump();
   
   return 0;
 }
