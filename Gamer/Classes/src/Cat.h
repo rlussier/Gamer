@@ -1,12 +1,12 @@
-* Cat.h
+* Turtle.h
 
-#ifndef CAT_H_
-#define CAT_H_
+#ifndef TURTLE_H_
+#define TURTLE_H_
   
-class Cat {
+class Turtle {
   public:
   void speak();
   void jump();
 };
 
-#endif /* CAT_H_ */
+#endif /* TURTLE_H_ */
