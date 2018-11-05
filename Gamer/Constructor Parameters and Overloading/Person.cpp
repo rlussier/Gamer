@@ -6,6 +6,11 @@ Person::Person() {
   age = 0;
 }
 
+Person::Person(string newName, int age) {
+  name = newName;
+  age = newAge;
+}
+
 string Person::toString() {
   stringstream ss;
   
