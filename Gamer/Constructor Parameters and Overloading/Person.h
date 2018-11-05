@@ -12,6 +12,7 @@ class Person {
   public:
     Person();
     Person(string newName){ name = newName; age = 0; };
+    Person(string newName, int age)
     string toString();
 };
 
