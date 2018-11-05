@@ -10,7 +10,8 @@ class Person {
     string name;
     int age;
   public:
-    person();
+    Person();
+    Person(string newName){ name = newName; age = 0; };
     string toString();
 };
 
