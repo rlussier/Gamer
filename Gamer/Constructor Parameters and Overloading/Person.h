@@ -11,6 +11,7 @@ class Person {
     int age;
   public:
     person();
+    string toString();
 };
 
 #endif /* PERSON_H_ */
