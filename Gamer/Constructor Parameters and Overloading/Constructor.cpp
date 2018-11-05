@@ -1,9 +1,13 @@
 #include <iostream>
- 
+ #include "Person.h"
+
  using namespace std;
  
  int main() {
-  cout << "Welcome to the show!" << endl; //prints Welcome to the show
+  
+  Person person1;
+  
+  cout << person1.toString(); << endl; 
   
   return 0;
  }
