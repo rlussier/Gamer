@@ -14,7 +14,7 @@ private:
 public: 
   Person();
   string toString();
-  void setName();
+  void setName(string newName);
 };
 
 #endif /*PERSON_H_*/
