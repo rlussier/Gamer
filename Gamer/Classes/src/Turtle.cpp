@@ -4,7 +4,12 @@
 using namespace std;
 
 void Turtle::speak() {
-    cout << "Hello!" << endl;
+   if (happy) {
+       cout << "WOOHOO!" << endl;
+   }
+   else {
+	  cout << "Awww Man!" << endl;
+   }
 }
 
 void Turtle::jump() {
