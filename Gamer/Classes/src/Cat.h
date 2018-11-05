@@ -4,6 +4,9 @@
 #define TURTLE_H_
   
 class Turtle {
+private:
+  bool happy;
+
   public:
   void speak();
   void jump();
