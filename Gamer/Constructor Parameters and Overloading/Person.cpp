@@ -8,4 +8,9 @@ Person::Person() {
 
 string Person::toString() {
   stringstream ss;
+  
+  ss << "Name: ";
+  ss << name;
+  ss << "; age: ";
+  ss << age;
 }
