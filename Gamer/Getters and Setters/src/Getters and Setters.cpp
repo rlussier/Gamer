@@ -8,6 +8,8 @@ using namespace std;
 int main() {
   Person person; 
   
+  person.setName("Berus");
+  
   cout << person.toString() << endl;  
   
   return 0;
