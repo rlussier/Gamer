@@ -13,6 +13,7 @@ private:
 
 public: 
   Person();
+  string toString();
 };
 
 #endif /*PERSON_H_*/
