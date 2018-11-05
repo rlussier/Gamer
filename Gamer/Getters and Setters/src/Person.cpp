@@ -15,3 +15,7 @@ string Person::toString() {
 void Person::setName(string newName) {
   name = newName;
 }
+
+string Person::getName() {
+  return name;
+}
