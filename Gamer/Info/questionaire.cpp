@@ -28,4 +28,7 @@ int main()
   std::cout << "How do you identify? ";
   getline (std::cin, gender);
   std::cout << "You are a " << gender << "!\n";
+  
+  std::cin.ignore();
+  return 0;
 }
