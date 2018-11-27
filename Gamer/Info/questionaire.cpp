@@ -13,7 +13,7 @@ int main()
   getline (std::cin, name);
   std::cout << "Nice to meet you " << name << "!\n";
   
-  std::cout << "What is your age? ";
+  std::cout << "How old are you? ";
   getline (std::cin, age);
   std::cout << "So, you are " << age << " years old!\n";
   
