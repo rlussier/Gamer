@@ -6,7 +6,7 @@ int main()
   std::string name;
   std::string age;
   std::string favorite_food;
-  std::string pets2;
+  std::string pets;
   std::string gender;
   
   std::cout << "What is your name? ";
@@ -22,8 +22,8 @@ int main()
   std::cout << "Yummy, I like " << favorite_food << " too!\n";
   
   std::cout << "Do you have any pets? ";
-  getline (std::cin, pets2);
-  std::cout << "Cool, I love " << pets2 << "s!\n";
+  getline (std::cin, pets);
+  std::cout << "Cool, I love " << pets << "s!\n";
   
   std::cout << "How do you identify? ";
   getline (std::cin, gender);
