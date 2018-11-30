@@ -14,12 +14,6 @@ int main()
     cin >> healingBerries;
     
     cout << "You have a total of " << healingPotion + healingBerries << " healing items";
-    
-    double healingPotion;
-    double healingBerries;
-    
-    cout << "You increased your bag by: " < endl;
-    cin >> healingPotion * healingBerries;
-    
+   
     return 0;
 }
