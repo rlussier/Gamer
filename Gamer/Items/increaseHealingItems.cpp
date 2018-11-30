@@ -12,7 +12,6 @@ int main()
  cout << "Enter your Berries: ";
     cin >> healingBerries;
  cout << "You increased your bag by: " << healingPotion * healingBerries << endl;
- cin >> healingPotion * healingBerries;
    
  return 0; 
 }
