@@ -8,7 +8,7 @@ int main()
   cout << "What is your username?";
   cin << userName;
   
-  if(username == true) 
+  if(userName == true) 
   {
     cout << "Welcome back!";
   } else {
