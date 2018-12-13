@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-  int username;
+  int userName;
   cout << "What is your username?";
-  cin << username;
+  cin << userName;
   
   if(username == true) 
   {
